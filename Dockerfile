@@ -1,4 +1,5 @@
 FROM node:latest
+LABEL maintainer="KPTAC Technologies"
 
 RUN set -xe \
     && apt-get update \
